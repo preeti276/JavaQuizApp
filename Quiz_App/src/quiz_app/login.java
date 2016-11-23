@@ -18,7 +18,8 @@ import javax.swing.JFrame;
 import quiz_app.NewJFrame;
 
 public class login extends javax.swing.JFrame {
-
+ ImageIcon icon = new ImageIcon("C:\\Users\\dell pc\\Desktop\\snu\\sem III\\OOP in Java\\project\\email-etiquette-quiz.png"); 
+       
     /**
      * Creates new form login
      */
@@ -162,7 +163,7 @@ signup.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_signupActionPerformed
 
     private void jLabel7PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel7PropertyChange
-        // TODO add your handling code here:
+        jLabel7.setIcon(icon); // TODO add your handling code here:
     }//GEN-LAST:event_jLabel7PropertyChange
 
     private void loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginActionPerformed
